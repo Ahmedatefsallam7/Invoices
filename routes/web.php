@@ -30,7 +30,7 @@ Route::get('/', function () {
 });
 
 Route::middleware('checkUser')->group(function () {
-    "ahmed";
+    
     Route::get('dashboard', function () {
         return view('dashboard');
     });
